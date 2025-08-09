@@ -1,0 +1,63 @@
+
+
+body{
+    background-image: url(form\ pic.jpg);
+    background-size: cover;
+}
+#purchase{
+    width: 22em;
+    height: 50em;
+    padding: 20px;
+    font-family: Arial;
+    margin: 80px auto;
+    border: rgb(8, 8, 8);
+    background-color: transparent;
+    box-sizing: border-box;
+    border-radius: 20px;
+    
+}
+#purchase label {
+  display: flex;
+  margin-top: 10px;
+  font-weight: bold;
+  color: rgb(160, 11, 61);
+}
+
+
+#purchase input[type="text"],
+#purchase input[type="email"],
+#purchase input[type="number"],
+#purchase textarea {
+  width: 100%;
+  padding: 8px;
+  margin-top: 5px;
+  box-sizing: border-box;
+  border-radius: 5px;
+  border: 1px solid #aaa;
+  background-color: black;
+  color: brown;
+}
+button{
+  text-align: center;
+  margin-top: 20px;
+}
+
+button {
+  padding: 10px 20px;
+  margin: 5px;
+  font-size: 16px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  background-color: rgb(31, 46, 2);
+  color: brown;
+}
+
+button:hover {
+  background-color: rgb(6, 65, 6);
+
+}
+h1{
+    text-align: center;
+    color: brown;
+}
